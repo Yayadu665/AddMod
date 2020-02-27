@@ -1,0 +1,5 @@
+type: material
+name: Ticket
+description: Ticket
+cost: 2.5
+color: dcd16b

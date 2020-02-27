@@ -1,0 +1,20 @@
+size: 2
+update: true
+solid: true
+hasItems: true
+itemCapacity: 50
+configurable: true
+localizedName: "Shop"
+description: "Permet échanger ticket contre objet"
+category: turret
+requirements: [
+  graphite/75,
+  ticket/30
+]
+consumes: {
+  items: {
+    items: [
+      ticket/1
+    ]
+  }
+}
