@@ -1,4 +1,4 @@
-type: Block
+type: drill
 name: "Aether Extrator"
 description: "Extrait l'aether"
 liquidCapacity: 200
@@ -17,5 +17,5 @@ requirements: [
   copper/80
   silicon/20
 ]
-category: crafting
+category: production
 research: kiln
