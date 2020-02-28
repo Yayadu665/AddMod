@@ -1,21 +1,30 @@
-type: drill
-name: "Aether Extrator"
-description: "Extrait l'aether"
-liquidCapacity: 200
-outputLiquid: liquid-aether/7
-size: 3
+type: Cultivator
+name: Aether Extrator
+description: Extrait de l'eather
+liquidCapacity: 50
+size: 2
 hasPower: true
 hasLiquids: true
-craftTime: 10
+hasItems: true
+craftTime: 12
 updateEffect: smeltsmoke
+outputLiquid: {
+  liquid: liquid-aether
+  amount: 30
+}
 consumes: {
-  power: 0.6
-  item: copper
+  power: 0.7
+  liquid: {
+    liquid: water
+    amount: 0.1
+  }
 }
 requirements: [
   lead/50
-  copper/80
-  silicon/20
+  thorium/80
+  silicon/60
+  silenium/100
 ]
-category: production
-research: kiln
+category: crafting
+color: ff0000
+research: duo
