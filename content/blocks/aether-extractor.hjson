@@ -23,7 +23,6 @@ requirements: [
   lead/50
   thorium/80
   silicon/60
-  silenium/100
 ]
 category: crafting
 color: ff0000
