@@ -2,10 +2,7 @@ type: Block
 name: "Aether Extrator"
 description: "Extrait l'aether"
 liquidCapacity: 200
-outputLiquid: {
-  liquid: liquid-aether
-  amount: 7
-}
+outputLiquid: liquid-aether/7
 size: 3
 hasPower: true
 hasLiquids: true
