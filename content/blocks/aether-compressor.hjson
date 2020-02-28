@@ -2,10 +2,7 @@ type: GenericCrafter
 name: "Aether Compressor"
 description: "Aether Compressor"
 liquidCapacity: 50
-outputitem: {
-  item: aether
-  amount: 7
-}
+outputItem: aether/7
 size: 2
 hasPower: true
 hasLiquids: true
