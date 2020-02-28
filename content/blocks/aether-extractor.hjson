@@ -19,6 +19,7 @@ consumes: {
     amount: 0.1
   }
 }
+attribute: water
 requirements: [
   lead/50
   thorium/80
