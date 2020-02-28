@@ -1,38 +1,32 @@
 {
-  
-{
 	"type": "groundUnit",
 	"name": "Stormclaw",
-	"description": "...",
+	"description": "Eradicator scaled down to Dagger size.",
 	"maxVelocity": 1,
-	"speed": 0.12,
+	"speed": 0.2,
 	"drag": 0.4,
-	"mass": 40,
-	"hitsize": 1,
-	"rotatespeed": 0.03,
-	"health": 2000,
+	"mass": 4,
+	"hitsize": 10,
+	"health": 600,
 	"weapon": {
-		"name": "Stormclaw-equip",
-		"length": 130,
-    "recoil": 50,
-    "shake": 100,
-    "innacuracy": 10,
+		"name": "Stormclawn-equip",
+		"length": 5,
+    "recoil": 1,
     "shots": 4,
     "spacing": 0,
     "shotDelay": 3,
-    "shootSound": "shootBig",
-    "ejectEffect": "shellEjectBig",
-		"width": 260,
+    "shootSound": "shoot",
+    "ejectEffect": "shellEjectSmall",
+		"width": 9,
 		"reload": 30,
 		"alternate": true,
-		"bullet":{
-		  "damage": 320,
-		  "speed": 25,
-			"knockback": 15,
-		  "bulletWidth": 92,
-		  "bulletHeight": 76,
-      "shootEffect": "shootBig",
-		  "lifetime": 120
+		"bullet": {
+		  "damage": 6,
+		  "speed": 4,
+		  "bulletWidth": 10,
+		  "bulletHeight": 13,
+      "shootEffect": "shootSmall",
+		  "lifetime": 30
 		}
 	}
 }
