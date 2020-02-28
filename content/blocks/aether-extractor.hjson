@@ -10,7 +10,7 @@ consumes: {
   power: 1.6
   items: {
     items: [
-      aether/0
+      aether/1
     ]
   }
 }
