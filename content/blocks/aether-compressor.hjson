@@ -23,4 +23,4 @@ category: crafting
 research: duo
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: aether
+outputItem: aether/1
