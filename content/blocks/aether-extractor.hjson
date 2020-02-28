@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: Bloc
 name: "Aether Extrator"
 description: "Extrait l'aether"
 liquidCapacity: 200
