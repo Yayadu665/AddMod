@@ -1,5 +1,5 @@
-{
-name: Stormclaw Factory
+
+	name: Stormclaw Factory
 description: Makes Chrome Wraith units.
 type: UnitFactory
 unitType: Stormclaw
@@ -10,6 +10,7 @@ consumes: {
   items: {
     items: [
       silicon/10
+      lead/5
     ]
   }
 }
@@ -17,6 +18,7 @@ category: units
 research: wraith-factory
 requirements: [
   silver/70
+  electrum/40
   silicon/40
   titanium/20
 ]
