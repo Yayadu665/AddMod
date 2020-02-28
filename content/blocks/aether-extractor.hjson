@@ -1,4 +1,4 @@
-type: Cultivator
+type: LiquidConverter
 name: Aether Extractor
 description: Extrait de l'eather
 liquidCapacity: 50
