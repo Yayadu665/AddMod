@@ -1,4 +1,4 @@
-type: LiquidConverter
+type: SolidPump
 name: Aether Extractor
 description: Extrait de l'eather
 liquidCapacity: 50
