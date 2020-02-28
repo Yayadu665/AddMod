@@ -21,5 +21,4 @@ requirements: [
 	{ "item": "graphite", "amount": 80},
 	{ "item": "titanium", "amount":120}
 ]
-category: "production",
-research: "cryofluidmixer"
+category: "production"
