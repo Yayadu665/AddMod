@@ -6,7 +6,7 @@ itemCapacity: 50
 configurable: true
 localizedName: "Shop"
 description: "Permet échanger ticket contre objet"
-category: turret
+category: crafting
 requirements: [
   graphite/75,
   ticket/30
