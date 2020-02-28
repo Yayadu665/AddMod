@@ -7,10 +7,10 @@
 	"maxVelocity": 1,
 	"speed": 0.12,
 	"drag": 0.4,
-	"mass": 8640,
-	"hitsize": 30,
+	"mass": 40,
+	"hitsize": 1,
 	"rotatespeed": 0.03,
-	"health": 15552000,
+	"health": 2000,
 	"weapon": {
 		"name": "Stormclaw-equip",
 		"length": 130,
@@ -26,13 +26,11 @@
 		"reload": 30,
 		"alternate": true,
 		"bullet":{
-		  "damage": 112320,
+		  "damage": 320,
 		  "speed": 25,
-			"knockback": 1500,
-		  "bulletWidth": 192,
-		  "bulletHeight": 276,
-		  "splashDamageRadius": 80,
-		  "splashDamage": 6000,
+			"knockback": 15,
+		  "bulletWidth": 92,
+		  "bulletHeight": 76,
       "shootEffect": "shootBig",
 		  "lifetime": 120
 		}
