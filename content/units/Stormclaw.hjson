@@ -9,7 +9,7 @@ hitsize: 10
 health: 600
 weapon: {
 	name: "Stormclaw-equip"
-	length: 5
+	length: 15
 	recoil: 1
 	shots: 4
 	spacing: 1
