@@ -1,1 +1,26 @@
-
+type: GenericCrafter
+name: Aether Compressor
+description: Aether Compressor
+liquidCapacity: 50
+size: 3
+hasPower: true
+hasLiquids: true
+craftTime: 60
+flameColor: e99f99
+consumes: {
+  power: 1.4
+    liquid: {
+    liquid: liquid-aether
+    amount: 0.4
+  }
+}
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: aether/1
