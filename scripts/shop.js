@@ -1,4 +1,4 @@
-const silo = extendContent(Block, "scatter-silo", {
+const silo = extendContent(Block, "shop", {
     buildConfiguration(tile, table){
 		//Copper contre 2 tickets
         table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
