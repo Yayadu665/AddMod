@@ -11,6 +11,7 @@
 	"weapon": {
 		"name": "Stormclawn-equip",
 		"length": 5,
+		}
     "recoil": 1,
     "shots": 4,
     "spacing": 0,
@@ -28,5 +29,5 @@
       "shootEffect": "shootSmall",
 		  "lifetime": 30
 		}
-	}
+	
 }
