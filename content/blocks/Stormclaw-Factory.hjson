@@ -17,7 +17,6 @@ consumes: {
 category: units
 research: wraith-factory
 requirements: [
-  electrum/40
   silicon/40
   titanium/20
 ]
