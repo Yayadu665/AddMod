@@ -8,7 +8,7 @@ mass: 4
 hitsize: 10
 health: 600
 weapon: {
-	name: "Stormclawn-equip"
+	name: "Stormclaw-equip"
 	length: 5
 	recoil: 1
 	shots: 4
