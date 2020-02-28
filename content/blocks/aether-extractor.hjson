@@ -2,20 +2,23 @@ type: GenericCrafter
 name: "Aether Extrator"
 description: "Extrait l'aether"
 liquidCapacity: 200
-outputLiquid: liquid-aether/5
+outputLiquid: {
+  liquid: liquid-aether
+  amount: 7
+}
 size: 3
 hasPower: true
-craftTime: 12
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
 consumes: {
-  power: 0.7
-  item: aether
+  power: 0.6
+  item: silver
 }
 requirements: [
-  titanium/50
-  silicon/30
   lead/50
-  graphite/20
+  copper/80
+  silicon/20
 ]
 category: crafting
 research: kiln
-
