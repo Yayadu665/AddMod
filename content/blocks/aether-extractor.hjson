@@ -1,5 +1,5 @@
-type: Drill
-name: Aether Extrator
+type: Extractor
+name: Aether Extractor
 description: Extrait de l'eather
 liquidCapacity: 50
 size: 3
