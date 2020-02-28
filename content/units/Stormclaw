@@ -12,7 +12,7 @@
 	"rotatespeed": 0.03,
 	"health": 15552000,
 	"weapon": {
-		"name": "omegaradicatron",
+		"name": "Stormclaw-equip",
 		"length": 130,
     "recoil": 50,
     "shake": 100,
