@@ -2,7 +2,7 @@ type: "Fracker"
 name: "Aether extrator"
 description: "Aether Extrator"
 liquidCapacity: 50
-outputLiquid: liquid-aether
+result: liquid-aether
 size: 3
 hasPower: true
 hasLiquids: true
