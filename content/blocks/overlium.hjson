@@ -21,10 +21,10 @@ consumes: {
   }
 }
 requirements: [
-  titanium/50
-  silicon/30
+  aether/100
+  silicon/70
   lead/50
-  graphite/20
+  graphite/30
 ]
 category: crafting
 research: kiln
