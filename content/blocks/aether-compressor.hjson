@@ -2,7 +2,8 @@ type: Separator
 name: "Aether Compressor"
 description: "Aether Compressor"
 liquidCapacity: 50
-outputliquid: liquid-aether/7
+outputitem: aether
+amount: 2.0
 size: 2
 hasPower: true
 hasLiquids: true
@@ -10,7 +11,8 @@ craftTime: 10
 updateEffect: smeltsmoke
 consumes: {
   power: 0.6
-  item: aether
+  liquid: liquid-aether
+  amount: 0.1
 }
 requirements: [
   lead/50
