@@ -2,7 +2,7 @@ type: Cultivator
 name: Aether Extrator
 description: Extrait de l'eather
 liquidCapacity: 50
-size: 2
+size: 3
 hasPower: true
 hasLiquids: true
 craftTime: 12
