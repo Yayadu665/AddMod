@@ -1,4 +1,4 @@
-type: Bloc
+type: Block
 name: "Aether Extrator"
 description: "Extrait l'aether"
 liquidCapacity: 200
