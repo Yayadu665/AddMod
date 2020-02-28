@@ -13,7 +13,7 @@ craftTime: 10
 updateEffect: smeltsmoke
 consumes: {
   power: 0.6
-  item: silver/0
+  item: copper/0
 }
 requirements: [
   lead/50
