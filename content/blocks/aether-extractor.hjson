@@ -14,10 +14,6 @@ consumes: {
 	  sand/3
     ]
   }
-  liquid: {
-    liquid: water
-    amount: 0.3
-  }
 }
 requirements: [
   titanium/50
