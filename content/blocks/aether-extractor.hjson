@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Aether Extrador
-description: Extrait l'aether
+name: "Aether Extrador"
+description: "Extrait l'aether"
 liquidCapacity: 200
 outputLiquid: liquid-aether/5
 size: 3
