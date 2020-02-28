@@ -1,4 +1,3 @@
-type: GenericCrafter
 name: "Aether Extrator"
 description: "Extrait l'aether"
 liquidCapacity: 200
@@ -6,7 +5,9 @@ outputLiquid: liquid-aether/5
 size: 3
 hasPower: true
 craftTime: 12
-power: 1.6
+consumes: {
+  power: 0.7
+}
 requirements: [
   titanium/50
   silicon/30
