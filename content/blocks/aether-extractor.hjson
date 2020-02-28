@@ -8,7 +8,7 @@ hasPower: true
 craftTime: 12
 consumes: {
   power: 0.7
-  item: silver
+  item: aether
 }
 requirements: [
   titanium/50
