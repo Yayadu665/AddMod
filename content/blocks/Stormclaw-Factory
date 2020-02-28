@@ -1,0 +1,17 @@
+{
+	"name": "Stormclaw Factor",
+	"description": "...",
+	"type": "UnitFactory",
+	"unitType": "Stormclaw",
+	"size": 5,
+	"produceTime": 6000,
+	"maxSpawn": 1,
+	"consumes": {
+		"power": 1.0
+  },
+	"category": "units",
+	"research": "eradicator-factory",
+	"requirements": [
+		{ "item": "copper", "amount": 1 }
+	]
+}
