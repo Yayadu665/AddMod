@@ -9,16 +9,6 @@ hasLiquids: true
 craftTime: 12
 consumes: {
   power: 1.6
-  items: {
-    items: [
-      coal/2
-	  sand/3
-    ]
-  }
-  liquid: {
-    liquid: water
-    amount: 0.3
-  }
 }
 requirements: [
   titanium/50
