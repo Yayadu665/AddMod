@@ -1,4 +1,4 @@
-type: "GenericCrafter"
+type: "Fracker"
 name: "Aether extrator"
 description: "Aether Extrator"
 liquidCapacity: 50
