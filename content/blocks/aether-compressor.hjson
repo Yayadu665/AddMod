@@ -9,7 +9,7 @@ craftTime: 60
 flameColor: e99f99
 consumes: {
   power: 1.4
-    liquid: {
+  liquid: {
     liquid: liquid-aether
     amount: 0.4
   }
@@ -23,4 +23,4 @@ category: crafting
 research: duo
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: aether/1
+outputItem: aether
