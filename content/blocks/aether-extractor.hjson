@@ -5,6 +5,7 @@ liquidCapacity: 200
 outputLiquid: liquid-aether/5
 size: 3
 hasPower: true
+hasLiquids: true
 craftTime: 12
 consumes: {
   power: 1.6
@@ -27,3 +28,4 @@ requirements: [
 ]
 category: crafting
 research: kiln
+
