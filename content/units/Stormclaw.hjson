@@ -1,23 +1,23 @@
 type: "groundUnit"
 name: "Stormclaw"
 description: "The physical form of Anuke's wrath."
-maxVelocity: 0.68f
-speed: 0.12f
-drag: 0.4f
-mass: 5f
-hitsize: 20f
-rotatespeed: 0.06f
+maxVelocity: 0.68
+speed: 0.12
+drag: 0.4
+mass: 5
+hitsize: 20
+rotatespeed: 0.06
 health: 9000
 weapon: {
-            length: 13f
-            reload: 30f
-            width: 22f
+            length: 13
+            reload: 30
+            width: 22
             alternate: true
-            recoil: 3f
-            shake: 2f
-            inaccuracy: 3f
+            recoil: 3
+            shake: 2
+            inaccuracy: 3
             shots: 4
-            spacing: 0f
+            spacing: 0
             shotDelay: 3
             bullet:{
                         damage: 2320
