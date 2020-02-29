@@ -1,38 +1,25 @@
-{
-	"type": "groundUnit",
-	"name": "Stormclaw",
-	"description": "The physical form of Anuke's wrath.",
-	"maxVelocity": 0.68,
-	"speed": 0.12,
-	"drag": 0.4,
-	"mass": 5,
-	"hitsize": 20,
-	"rotatespeed": 0.06,
-	"health": 9000,
-	"weapon": {
-		"name": "stormclaw-equip",
-		"length": 13,
-    "recoil": 3,
-    "shake": 2,
-    "innacuracy": 3,
-    "shots": 4,
-    "spacing": 0,
-    "shotDelay": 3,
-    "shootSound": "shootBig",
-    "ejectEffect": "shellEjectBig",
-		"width": 22,
-		"reload": 30,
-		"alternate": true,
-		"bullet":{
-		  "damage": 2320,
-		  "speed": 25,
-			"knockback": 50,
-		  "bulletWidth": 2,
-		  "bulletHeight": 6,
-		  "splashDamageRadius": 2,
-		  "splashDamage": 300,
-      "shootEffect": "shootBig",
-		  "lifetime": 20
-		}
-	}
-}
+type: "UnitType"
+name: "Stormclaw"
+description: "The physical form of Anuke's wrath."
+maxVelocity = 0.68f
+            speed = 0.12f
+            drag = 0.4f
+            mass = 5f
+            hitsize = 20f
+            rotatespeed = 0.06f
+            health = 9000
+            weapon = new Weapon("eradication"){{
+                length = 13f
+                reload = 30f
+                width = 22f
+                alternate = true
+                recoil = 3f
+                shake = 2f
+                inaccuracy = 3f
+                shots = 4
+                spacing = 0f
+                shotDelay = 3
+                ejectEffect = Fx.shellEjectMedium
+                bullet = Bullets.standardThoriumBig
+                shootSound = Sounds.shootBig
+            }}
