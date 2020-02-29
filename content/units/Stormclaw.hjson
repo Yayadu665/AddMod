@@ -19,4 +19,15 @@ weapon: {
             shots: 4
             spacing: 0f
             shotDelay: 3
+            bullet:{
+                        damage: 2320
+                        speed: 25
+                        knockback: 50
+                        bulletWidth: 2
+                        bulletHeight: 6
+                        splashDamageRadius: 2
+                        splashDamage: 300
+                        shootEffect: "shootBig"
+                        lifetime: 20
+        }
 }
