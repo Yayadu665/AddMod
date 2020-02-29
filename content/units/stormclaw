@@ -1,0 +1,38 @@
+{
+	"type": "groundUnit",
+	"name": "Stormclaw",
+	"description": "The physical form of Anuke's wrath.",
+	"maxVelocity": 1,
+	"speed": 0.12,
+	"drag": 0.4,
+	"mass": 8640,
+	"hitsize": 300,
+	"rotatespeed": 0.03,
+	"health": 52000,
+	"weapon": {
+		"name": "stormclaw-equip",
+		"length": 10,
+    "recoil": 50,
+    "shake": 10,
+    "innacuracy": 10,
+    "shots": 4,
+    "spacing": 0,
+    "shotDelay": 3,
+    "shootSound": "shootBig",
+    "ejectEffect": "shellEjectBig",
+		"width": 260,
+		"reload": 30,
+		"alternate": true,
+		"bullet":{
+		  "damage": 112320,
+		  "speed": 25,
+			"knockback": 1500,
+		  "bulletWidth": 192,
+		  "bulletHeight": 276,
+		  "splashDamageRadius": 80,
+		  "splashDamage": 6000,
+      "shootEffect": "shootBig",
+		  "lifetime": 120
+		}
+	}
+}
