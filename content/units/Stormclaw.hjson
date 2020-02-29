@@ -19,7 +19,6 @@ weapon: {
             shots: 4
             spacing: 0f
             shotDelay: 3
-            ejectEffect: Fx.shellEjectMedium
             bullet: Bullets.standardThoriumBig
             shootSound: Sounds.shootBig
 }
