@@ -19,6 +19,4 @@ weapon: {
             shots: 4
             spacing: 0f
             shotDelay: 3
-            bullet: Bullets.standardThoriumBig
-            shootSound: Sounds.shootBig
 }
