@@ -24,7 +24,7 @@
 	"ammo": {
 		"aether": {
 			"speed": 20,
-			"damage": 800,
+			"damage": 900,
 			"backColor": "00ffff",
 			"frontColor": "00ffff",
 			"bulletWidth": 10,
@@ -45,7 +45,7 @@
 		},
 		"surge-alloy": {
 			"speed": 20,
-			"damage": 600,
+			"damage": 400,
 			"backColor": "00ffff",
 			"frontColor": "00ffff",
 			"bulletWidth": 10,
