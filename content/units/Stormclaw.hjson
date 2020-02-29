@@ -1,4 +1,4 @@
-type: "GroundUnit"
+type: "groundUnit"
 name: "Stormclaw"
 description: "The physical form of Anuke's wrath."
 maxVelocity: 0.68f
