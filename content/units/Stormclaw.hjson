@@ -8,7 +8,7 @@ maxVelocity = 0.68f
             hitsize = 20f
             rotatespeed = 0.06f
             health = 9000
-            weapon = new Weapon("eradication"){{
+            weapon = new Weapon("eradication"){
                 length = 13f
                 reload = 30f
                 width = 22f
@@ -22,4 +22,4 @@ maxVelocity = 0.68f
                 ejectEffect = Fx.shellEjectMedium
                 bullet = Bullets.standardThoriumBig
                 shootSound = Sounds.shootBig
-            }}
+            }
