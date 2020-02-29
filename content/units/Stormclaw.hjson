@@ -9,22 +9,24 @@ hitsize: 10
 health: 600
 weapon: {
 	name: "Stormclaw-equip"
-	length: 15
-	recoil: 1
-	shots: 4
-	spacing: 1
-	shotDelay: 3
-	shootSound: "shoot"
-	ejectEffect: "shellEjectSmall"
-	width: 9
-	reload: 30
-	alternate: true
-	bullet: {
-		damage: 6
-		speed: 4
-		bulletWidth: 10
-		bulletHeight: 13
-	        shootEffect: "shootSmall"
-		lifetime: 30
+	"length": 5,
+    "recoil": 1,
+    "shots": 4,
+    "spacing": 0,
+    "shotDelay": 3,
+    "shootSound": "shoot",
+    "ejectEffect": "shellEjectSmall",
+		"width": 9,
+		"reload": 30,
+		"alternate": true,
+		"bullet": {
+		  "damage": 6,
+		  "speed": 4,
+		  "bulletWidth": 10,
+		  "bulletHeight": 13,
+      "shootEffect": "shootSmall",
+		  "lifetime": 30
+		}
 	}
-}
+}	
+
