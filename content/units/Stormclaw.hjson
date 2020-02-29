@@ -2,24 +2,24 @@ type: "UnitType"
 name: "Stormclaw"
 description: "The physical form of Anuke's wrath."
 maxVelocity: 0.68f
-            speed: 0.12f
-            drag: 0.4f
-            mass: 5f
-            hitsize: 20f
-            rotatespeed: 0.06f
-            health: 9000
-            weapon: {
-                length: 13f
-                reload: 30f
-                width: 22f
-                alternate: true
-                recoil: 3f
-                shake: 2f
-                inaccuracy: 3f
-                shots: 4
-                spacing: 0f
-                shotDelay: 3
-                ejectEffect: Fx.shellEjectMedium
-                bullet: Bullets.standardThoriumBig
-                shootSound: Sounds.shootBig
-            }
+speed: 0.12f
+drag: 0.4f
+mass: 5f
+hitsize: 20f
+rotatespeed: 0.06f
+health: 9000
+weapon: {
+            length: 13f
+            reload: 30f
+            width: 22f
+            alternate: true
+            recoil: 3f
+            shake: 2f
+            inaccuracy: 3f
+            shots: 4
+            spacing: 0f
+            shotDelay: 3
+            ejectEffect: Fx.shellEjectMedium
+            bullet: Bullets.standardThoriumBig
+            shootSound: Sounds.shootBig
+}
