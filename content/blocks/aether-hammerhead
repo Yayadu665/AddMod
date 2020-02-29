@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Hammerhead cannon",
-	"description": "A powerful single-shot cannon capable of ionising most enemies. Needs ionising fluid for proper firerate.",
+	"description": "La Puissance de l'aether concentré en un cannon",
 	"health": 2350,
 	"size": 4,
 	"reload": 450,
@@ -57,11 +57,8 @@
 		},
 	    },
 	"requirements": [
-		{ "item": "tau-plate", "amount": 470 },
 		{ "item": "surge-alloy", "amount": 270 },
 		{ "item": "copper", "amount": 440 },
-        { "item": "scalar", "amount": 350 },
-        { "item": "infiar", "amount": 150 },
         { "item": "graphite", "amount": 350 }
 	],
 	"category": "turret",
