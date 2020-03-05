@@ -21,3 +21,4 @@ requirements: [
 	{ "item": "titanium", "amount":120}
 ]
 category: "production"
+research: duo
