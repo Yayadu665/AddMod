@@ -6,9 +6,9 @@ health: 600
 category: power
 research: battery-large
 requirements: [
-    {"item": "aether", "amount": 75},
-    {"item": "silicon", "amount": 80},
-    {"item": "titanium", "amount": 50}
+    {"item": "aether", "amount": 35},
+    {"item": "silicon", "amount": 20},
+    {"item": "titanium", "amount": 10}
 ]
 maxNodes = 100
-laserRange = 16
+laserRange = 15
