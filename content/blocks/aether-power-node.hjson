@@ -1,6 +1,6 @@
 type: PowerNode
 name: Aether Power Node
-description:Aether Power Node
+description: Aether Power Node
 size: 2
 health: 600
 category: power
@@ -11,4 +11,4 @@ requirements: [
     {"item": "titanium", "amount": 10}
 ]
 maxNodes = 100
-laserRange = 15
+laserRange = 16
