@@ -10,5 +10,5 @@ requirements: [
     {"item": "silicon", "amount": 20},
     {"item": "titanium", "amount": 10}
 ]
-maxNodes = 100
-laserRange = 16
+maxNodes: 100
+laserRange: 16
