@@ -10,9 +10,9 @@ range: 250
 shootSound: laser
 consumes: {
     liquid: {
-        liquid: liquid-aether, 
-	amount: 0.12,
-	optional: true,
+        liquid: liquid-aether
+	amount: 0.12
+	optional: true
 	booster: true
     }
 }
