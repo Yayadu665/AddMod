@@ -2,7 +2,7 @@ type: SolarGenerator
 name: Aether Solar Panel 
 description: It's green energy.
 size: 3
-powerProduction: 3
+powerProduction: 6
 requirements: [
     { "item": "lead", "amount": 30 },
     { "item": "thorium", "amount": 120 },
