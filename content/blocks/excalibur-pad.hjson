@@ -1,6 +1,6 @@
 type: MechPad
 units: excalibur
-name": Excalibur ship pad
+name: Excalibur ship pad
 description: Transform to a heavy air unit class vessel, requires large amount of power
 size: 4
 requirements: [
