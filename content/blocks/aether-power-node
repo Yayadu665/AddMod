@@ -1,0 +1,16 @@
+  
+type: battery
+name: aether battery
+description: Un GROSSE batterie
+size: 3
+health: 600
+category: power
+research: battery-large
+requirements: [
+    {"item": "aether", "amount": 75},
+    {"item": "silicon", "amount": 80},
+    {"item": "titanium", "amount": 50}
+]
+consumes: { 
+    powerBuffered: 250000
+}
