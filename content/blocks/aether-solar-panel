@@ -1,15 +1,13 @@
-{
-	"type": "SolarGenerator",
-	"name": "Aether Solar Panel ",
-	"description": "It's green energy.",
-	"size": 3,
-    "powerProduction": 3,
-	"requirements": [
-		{ "item": "lead", "amount": 30 },
-		{ "item": "thorium", "amount": 120 },
-		{ "item": "silicon", "amount": 90 },
-		{ "item": "titanium", "amount": 40 }
-	],
-	"category": "power",
-	"research": "solar-panel"
-}
+type: SolarGenerator
+name: Aether Solar Panel 
+description: It's green energy.
+size: 3
+powerProduction: 3
+requirements: [
+    { "item": "lead", "amount": 30 },
+    { "item": "thorium", "amount": 120 },
+    { "item": "silicon", "amount": 90 },
+    { "item": "titanium", "amount": 40 }
+]
+category: power
+research: solar-panel
