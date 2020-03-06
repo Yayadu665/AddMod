@@ -1,67 +1,66 @@
-{
-	"type": "ItemTurret",
-	"name": "Hammerhead cannon",
-	"description": "La Puissance de l'aether concentré en un cannon",
-	"health": 2350,
-	"size": 4,
-	"reload": 450,
-	"targetGround": true,
-	"targetAir": true,
-	"range": 250,
-	"shootSound": "laser",
-	"consumes": {
-		"liquid": {
-			"liquid": "liquid-aether", 
-			"amount": 0.12,
-			"optional": true,
-			"booster": true
-		}
-	},
-	"BlockGroup": "turrets",
-	"ammoUseEffect": "shellEjectBig",
-	"inaccuracy": 0,
-	"rotatespeed": 10,
-	"ammo": {
-		"aether": {
-			"speed": 20,
-			"damage": 900,
-			"backColor": "00ffff",
-			"frontColor": "00ffff",
-			"bulletWidth": 10,
-			"bulletHeight": 100,
-			"shootEffect": "shootBig",
-			"smokeEffect": "shootBigSmoke"
-		},
-		"phase-fabric": {
-			"speed": 20,
-			"damage": 450,
-			"backColor": "00ffff",
-			"frontColor": "00ffff",
-			"bulletWidth": 10,
-			"bulletHeight": 100,
-			"shootEffect": "shootBig",
-			"smokeEffect": "smeltsmoke",
-			"reloadMultiplier": 2
-		},
-		"surge-alloy": {
-			"speed": 20,
-			"damage": 400,
-			"backColor": "00ffff",
-			"frontColor": "00ffff",
-			"bulletWidth": 10,
-			"bulletHeight": 100,
-			"shootEffect": "shootBig",
-			"smokeEffect": "shootBigSmoke",
-            "lightining" : 10,
-            "lightningLength" : 50
-		},
-	    },
-	"requirements": [
-	        { "item": "aether", "amount": 400 },
-		{ "item": "surge-alloy", "amount": 270 },
-		{ "item": "copper", "amount": 440 },
-        { "item": "graphite", "amount": 350 }
-	],
-	"category": "turret",
-	"research": "fuse"
+type: ItemTurret
+name: Hammerhead cannon
+description: La Puissance de l'aether concentré en un cannon
+health: 2350
+size: 4
+reload: 450
+targetGround: true
+targetAir: true
+range: 250
+shootSound: laser
+consumes: {
+    liquid: {
+        liquid: liquid-aether, 
+	amount: 0.12,
+	optional: true,
+	booster: true
+    }
 }
+BlockGroup: turrets
+ammoUseEffect: shellEjectBig
+inaccuracy: 0
+rotatespeed: 10
+ammo: {
+    aether: {
+        speed: 20
+	damage: 900
+	backColor: 00ffff
+	frontColor: 00ffff
+	bulletWidth: 10
+	bulletHeight: 100
+	shootEffect: shootBig
+	smokeEffect: shootBigSmoke
+    }
+    phase-fabric: {
+        speed: 20
+	damage: 450
+	backColor: 00ffff
+	frontColor: 00ffff
+	bulletWidth: 10
+	bulletHeight: 100
+	shootEffect: shootBig
+	smokeEffect: smeltsmoke
+	reloadMultiplier: 2
+    }
+    surge-alloy: {
+        speed: 20
+	damage: 400
+	backColor: 00ffff
+	frontColor: 00ffff
+	bulletWidth: 10
+	bulletHeight: 100
+	shootEffect: shootBig
+	smokeEffect: shootBigSmoke
+        lightining: 10
+        lightningLength : 50
+    }
+}
+requirements: [
+    { "item": "aether", "amount": 400 },
+    { "item": "surge-alloy", "amount": 270 },
+    { "item": "copper", "amount": 440 },
+    { "item": "graphite", "amount": 350 }
+]
+category: turret
+research: fuse
+
