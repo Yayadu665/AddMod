@@ -25,14 +25,14 @@
 			"liquid": "water"
 		},
 
-		"slag": {
+		"liquid-aether": {
 			"type": "LiquidBulletType",
 			"drag": 0.08,
 			"speed": 12,
 			"knockback": 0.1,
 			"ammoMultiplier": 1,
-			"damage": 2,
-			"liquid": "slag"
+			"damage": 20,
+			"liquid": "liquid-aether"
 		},
 
 		"cryofluid": {
@@ -52,15 +52,6 @@
 			"ammoMultiplier": 1,
 			"liquid": "oil"
 		},
-		
-		"acidLiquid": {
-			"type": "LiquidBulletType",
-			"drag": 0.07,
-			"speed": 12,
-			"knockback": 0.2,
-			"damage": 3,
-			"liquid": "acidLiquid",
-			"ammoMultiplier": 1,
             "status": {             
              "name": "Corroding",
              "speedMultiplier": 0.8,
@@ -100,7 +91,7 @@
 			"amount": 200
 		},
 		{
-			"item": "metaglass",
+			"item": "aether",
 			"amount": 350
 		},
 		{
