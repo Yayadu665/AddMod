@@ -1,4 +1,3 @@
-{
 type: powernode
 name: Aether Power Node
 description: Aether Power Node
@@ -13,4 +12,3 @@ requirements: [
 ]
 maxNodes = 100
 laserRange = 16
-}
