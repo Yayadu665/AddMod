@@ -10,5 +10,5 @@ requirements: [
     {"item": "silicon", "amount": 20}
     {"item": "titanium", "amount": 10}
 ]
-maxNodes: 100
+maxNodes: 30
 laserRange: 16
