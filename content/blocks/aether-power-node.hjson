@@ -1,6 +1,6 @@
-type: powernode
-name: Aether Power Node
-description: Aether Power Node
+type: "powernode:
+name: "Aether Power Node"
+description: "Aether Power Node"
 size: 2
 health: 600
 category: power
