@@ -1,12 +1,12 @@
-type: "powernode"
-name: "Aether Power Node"
-description: "Aether Power Node"
+type: powernode
+name: Aether Power Node
+description: Aether Power Node
 size: 2
 health: 600
 category: power
 research: battery-large
 requirements: [
-    {"item": "aether", "amount": 35},
-    {"item": "silicon", "amount": 20},
+    {"item": "aether", "amount": 35}
+    {"item": "silicon", "amount": 20}
     {"item": "titanium", "amount": 10}
 ]
