@@ -9,6 +9,7 @@ hitsize: 20
 rotatespeed: 0.06
 health: 9000
 weapon: {
+            name: "dictator-equip"
             length: 13
             reload: 30
             width: 22
