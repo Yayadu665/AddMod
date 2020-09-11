@@ -1,7 +1,7 @@
 const shop = extendContent(Block, "shop", {
 	buildConfiguration(tile, table){
 		//Copper contre 2 tickets
-		table.add(" Cooper : ");
+		table.add(" Cooper : ", Styles.clearTransi);
 		table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
 			convertitem(this, tile, 2, Items.copper);
 		})).size(50).disabled(boolf(b => tile.entity != null && !tile.entity.cons.valid()))
