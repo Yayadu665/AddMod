@@ -1,7 +1,7 @@
 {
 //"type": "LaserTurret",
 "name": "[orange] Armagedon",
-"description": "Imagine meltdown, but stronger, This is a beta block so change is coming",
+"description": "Imagine meltdown, but stronger, ",
 "health": 10000,
 "size": 7,
 "reload": 80,
