@@ -33,9 +33,6 @@ const shop = extendContent(Block, "shop", {
 	}
 })
 
-const sell = extendContent(Block, "sell", {
-})
-
 function convertitem(main, tile, value, item){
 	if(tile.entity.items.total()>=value){
 		const ticket = Vars.content.getByName(ContentType.item, "addmod-ticket");
