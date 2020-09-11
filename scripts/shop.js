@@ -4,9 +4,7 @@ const shop = extendContent(Block, "shop", {
 		table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
 			convertitem(this, tile, 2, Items.copper);
 		})).size(50).disabled(boolf(b => tile.entity != null && !tile.entity.cons.valid()))
-		table.addTextButton("", Styles.clearTransi, run(() => {
-			convertitem(this, tile, 2, Items.copper);
-		})).size(50).disabled(boolf(b => tile.entity != null && !tile.entity.cons.valid()))
+		table.add("coucou");
 		//Lead contre 4 tickets
 		table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
 			convertitem(this, tile, 4, Items.lead);
