@@ -1,7 +1,6 @@
 const silo = extendContent(Block, "sell", {
     buildConfiguration(tile, table){
 		//Copper contre 2 tickets
-	player.sendMessage("[scarlet]'page' must be a number.");
         table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
             convertitem(this, tile, 2, Items.copper);
         })).size(50).disabled(boolf(b => tile.entity != null && !tile.entity.cons.valid()))
