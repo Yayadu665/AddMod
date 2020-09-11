@@ -1,23 +1,23 @@
 type: GenericCrafter
 name: Aetherium
-description: Une version amélioré de la presse à Silice.
+description: Aetherium
 liquidCapacity: 50
-outputItem: aether-charged/2
-size: 3
+size: 2
 hasPower: true
+hasItems: true
 hasLiquids: true
-craftTime: 12
+craftTime: 60
 consumes: {
-  power: 1.6
-  items: {
-    items: [
-      surge-alloy/2
-	  aether/2
-    ]
-  }
+  power: 1.4
   liquid: {
     liquid: slag
     amount: 1
+  }
+  items: {
+    items: [
+      aether/2
+      surge-alloy/2
+    ]
   }
 }
 requirements: [
@@ -27,4 +27,4 @@ requirements: [
   titanium/80
 ]
 category: crafting
-research: kiln
+outputItem: aetherium/2
