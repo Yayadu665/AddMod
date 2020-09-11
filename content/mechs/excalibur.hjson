@@ -31,7 +31,7 @@
 			"keepVelocity": false,
 			"type": "MissileBulletType",
 			"speed": 9,
-			"damage": 10,
+			"damage": 40,
 			"bulletWidth": 8,
 			"bulletHeight": 15,
 			"shootEffect": "shootSmall",
