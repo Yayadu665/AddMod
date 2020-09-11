@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Aetherium
 description: Aetherium
 liquidCapacity: 50
-size: 2
+size: 3
 hasPower: true
 hasItems: true
 hasLiquids: true
