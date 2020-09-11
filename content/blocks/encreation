@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: A MODIF
-description: A MODIF
+name: Aetherium
+description: Aetherium
 liquidCapacity: 50
 size: 2
 hasPower: true
@@ -11,20 +11,20 @@ consumes: {
   power: 1.4
   liquid: {
     liquid: slag
-    amount: 0.4
+    amount: 1
   }
   items: {
     items: [
-      coal/2
-	    sand/3
+      aether/2
+      surge-alloy/2
     ]
   }
 }
 requirements: [
-  lead/50
-  thorium/80
-  silicon/60
+  aether/250
+  silicon/70
+  surge-alloy/50
+  titanium/80
 ]
 category: crafting
-research: duo
-outputItem: silicon/2
+outputItem: aetherium/2
