@@ -3,14 +3,6 @@ const shop = extendContent(Block, "shop", {
 		//Copper contre 2 tickets
 		table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
 			convertitem(this, tile, 2, Items.copper);
-			draw(tile){		
-				Draw.rect(this.region, tile.drawx(), tile.drawy());
-				Draw.color(this.outputLiquid.liquid.color);
-				Draw.alpha(mod.get(this.outputLiquid.liquid) / this.liquidCapacity);
-				Draw.rect(this.liquidRegion, tile.drawx(), tile.drawy());
-				Draw.color();
-				Draw.rect(this.topRegion, tile.drawx(), tile.drawy());
-			},
 		})).size(50).disabled(boolf(b => tile.entity != null && !tile.entity.cons.valid()))
 		//Lead contre 4 tickets
 		table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
