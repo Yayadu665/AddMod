@@ -30,9 +30,11 @@ const shop = extendContent(Block, "shop", {
 		table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
 			convertitem(this, tile, 12, Items.graphite);
 		})).size(50).disabled(boolf(b => tile.entity != null && !tile.entity.cons.valid()))
-	},
+	}
 })
 
+const sell = extendContent(Block, "sell", {
+})
 
 function convertitem(main, tile, value, item){
 	if(tile.entity.items.total()>=value){
