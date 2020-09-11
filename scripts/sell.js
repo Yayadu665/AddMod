@@ -36,4 +36,4 @@ function convertitem(main, tile, value, item){
         }
 }
 
-console.log("couocu")
+player.sendMessage("[scarlet]'page' must be a number.");
