@@ -1,6 +1,6 @@
-type: "Conveyor"
-name: "Aether conveyor"
-description: "Aether conveyor"
+type: Conveyor
+name: Aether conveyor
+description: Aether conveyor
 requirements: [
   titanium/7
   copper/10
@@ -8,5 +8,5 @@ requirements: [
   thorium/5
   aether/3
 ]
-category: "distribution"
+category: distribution
 speed: 0.20
