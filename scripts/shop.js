@@ -22,7 +22,7 @@ const shop = extendContent(Block, "shop", {
 		})).size(50).disabled(boolf(b => tile.entity != null && !tile.entity.cons.valid()))
 		//Graphite contre 12 tickets
 		table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
-			convertitem(this, tile, 12	, Items.graphite);
+			convertitem(this, tile, 12, Items.graphite);
 		})).size(50).disabled(boolf(b => tile.entity != null && !tile.entity.cons.valid()))
 	},
 })
