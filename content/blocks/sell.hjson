@@ -1,20 +1,22 @@
+type: GenericSmelter
+name: Recycleur
+description: Recycle les items en tickets
 size: 2
-update: true
-solid: true
+hasPower: true
 hasItems: true
-itemCapacity: 50
-configurable: true
-localizedName: "Vente Objet"
-description: "Permet échanger objet contre ticket"
-category: crafting
-requirements: [
-  graphite/75,
-  ticket/30
-]
+craftTime: 10
 consumes: {
+  power: 0.5
   items: {
     items: [
-      ticket/1
+      aether/5
     ]
   }
 }
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+]
+category: crafting
+outputItem: ticket/1
