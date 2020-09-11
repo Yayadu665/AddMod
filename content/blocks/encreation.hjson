@@ -4,7 +4,7 @@ description: A MODIF
 liquidCapacity: 50
 size: 2
 hasPower: true
-hasItems = true
+hasItems: true
 hasLiquids: true
 craftTime: 60
 consumes: {
