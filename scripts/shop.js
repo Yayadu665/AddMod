@@ -11,6 +11,9 @@ const shop = extendContent(Block, "shop", {
 		//Titanium contre 10 tickets
 		table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
             convertitem(this, tile, 10, Items.titanium);
+	    Font font = Fonts.outline;
+	    CharSequence text = "couocu";
+	    font.draw(text)
         })).size(50).disabled(boolf(b => tile.entity != null && !tile.entity.cons.valid()))
 		//Coal contre 6 tickets
 		table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
