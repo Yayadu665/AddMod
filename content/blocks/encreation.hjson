@@ -27,7 +27,4 @@ requirements: [
 ]
 category: crafting
 research: duo
-outputItem: {
-	item: copper
-	amount: 1
-}
+outputItem: silicon/2
