@@ -27,6 +27,7 @@ requirements: [
 ]
 category: crafting
 research: duo
-results: [
-  aether/1
-]
+outputItem: {
+	item: copper
+	amount: 1
+}
