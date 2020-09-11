@@ -35,3 +35,5 @@ function convertitem(main, tile, value, item){
             tile.entity.items.remove(ticket,value)
         }
 }
+
+console.log("couocu")
