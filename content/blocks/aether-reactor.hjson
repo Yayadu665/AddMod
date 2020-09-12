@@ -1,0 +1,19 @@
+type: ImpactReactor
+name: Aether Reactor
+description: Reacteur d'Aether
+size: 4
+health: 1200
+category: power
+powerProduction: 15000
+itemDuration: 2
+
+requirements: [
+    {"item": "aether", "amount": 75},
+    {"item": "silicon", "amount": 80},
+    {"item": "titanium", "amount": 50}
+]
+consumes: { 
+    power: 2000
+    item: aether/2
+    liquid: water/2
+}
