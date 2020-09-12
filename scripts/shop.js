@@ -1,4 +1,5 @@
-const armagedonlaser = extend(BasicBulletType, {
+  
+const calamitylaser = extend(BasicBulletType, {
 	
 	update: function(b){
 		Effects.shake(1.2, 1.2, b.x, b.y);
@@ -44,18 +45,18 @@ const armagedonlaser = extend(BasicBulletType, {
 	}
 });
 
-armagedonlaser.speed = 0.001;
-armagedonlaser.damage = 100;
-armagedonlaser.lifetime = 18;
-armagedonlaser.hitEffect = Fx.hitMeltdown;
-armagedonlaser.despawnEffect = Fx.none;
-armagedonlaser.hitSize = 5;
-armagedonlaser.drawSize = 660;
-armagedonlaser.pierce = true;
-armagedonlaser.shootEffect = Fx.none;
-armagedonlaser.smokeEffect = Fx.none;
+calamitylaser.speed = 0.001;
+calamitylaser.damage = 100;
+calamitylaser.lifetime = 18;
+calamitylaser.hitEffect = Fx.hitMeltdown;
+calamitylaser.despawnEffect = Fx.none;
+calamitylaser.hitSize = 5;
+calamitylaser.drawSize = 660;
+calamitylaser.pierce = true;
+calamitylaser.shootEffect = Fx.none;
+calamitylaser.smokeEffect = Fx.none;
 
-const armagedon = extendContent(LaserTurret, "armagedon",{
+const calamity = extendContent(LaserTurret, "armagedon",{
 	generateIcons: function(){
 	return [
 		Core.atlas.find("addmod-block-7"),
@@ -66,9 +67,8 @@ const armagedon = extendContent(LaserTurret, "armagedon",{
 		Draw.rect(Core.atlas.find("addmod-block-7"), tile.drawx(), tile.drawy())
 	}
 });
-armageron.shootType: armagedonlaser;
-armagedon.update = true;
-
+calamity.shootType = calamitylaser;
+calamity.update = true;
 
 const shop = extendContent(Block, "shop", {
 	buildConfiguration(tile, table){
