@@ -1,3 +1,15 @@
+const armagedon = extendContent(LaserTurret, "armagedon",{
+	generateIcons: function(){
+	return [
+		Core.atlas.find("block-7"),
+		Core.atlas.find("armagedon")
+	];},
+	
+	draw: function(tile){
+		Draw.rect(Core.atlas.find("block-7"), tile.drawx(), tile.drawy())
+	}
+});
+
 const shop = extendContent(Block, "shop", {
 	buildConfiguration(tile, table){
 		//Copper contre 2 tickets
