@@ -1,43 +1,51 @@
-  
 {
-	"type": "LaserTurret",
-	"size": 7,
-	"health": 7800,
-	"range": 275,
-	"reload": 130,
-	"coolantMultiplier": 0.6,
-	"shootCone": 40,
-	"shootDuration": 270,
-	"powerUse": 25,
-	"shootShake": 3,
-	"firingMoveFract": 0.16,
-	"shootEffect": "shootBigSmoke2",
-	"recoil": 8,
-	"localizedName": "AC Calamity Mk-1",
-	"description": "Death is upon your enemies, can only use Tier-3 Coolant due to its design.",
-	"hasPower": true,
-	"hasLiquids": true,
-	"shootSound": "laserbig",
-	"heatColor": "e04300",
-	"rotatespeed": 1.5,
-	"activeSoundVolume": 5,
-	"expanded": true,
-	"shootType": "meltdownLaser",
-	"consumes": {
-		"liquid": {
-			"liquid": "water",
-			"update": false,
-			"amount": 0.75
+"type": "LaserTurret",
+"name": "[orange] Armagedon",
+"description": "Imagine meltdown, but stronger, ",
+"health": 10000,
+"size": 7,
+"reload": 80,
+"shootShake": 2,
+"range": 500,
+"shootEffect": "shootBigSmoke2",
+"heatColor": "ff6700",
+"shootCone": 40,
+"recoil": 4,
+"firingMoveFract": 0.07,
+"shootDuration": 880,
+"powerUse": 30,
+"shootSound": "Cannon2",
+"activeSound": "ArcLoop3",
+"activeSoundVolume": 2,
+"consumes": {
+  "liquid": {
+    "liquid": "slag",
+    "amount": 0.5
+  }
+}
+//Todo Make this excessively expensive
+"requirements": [
+  {
+			"item": "copper",
+			"amount": 650
+		},
+		{
+			"item": "graphite",
+			"amount": 500
+		},
+		{
+			"item": "aetherium",
+			"amount": 400
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 450
+		},
+		{
+			"item": "plastanium",
+			"amount": 550
 		}
-	},
-	"requirements": [
-		{ "item": "copper", "amount": 890 },
-		{ "item": "lead", "amount": 690 },
-		{ "item": "graphite", "amount": 790 },
-		{ "item": "titanium", "amount": 500 },
-		{ "item": "surge-alloy", "amount": 750 },
-		{ "item": "silicon", "amount": 730 },
-		{ "item": "thorium", "amount": 430 }
-	],
-	"category": "turret",
+]
+"category": "turret",
+"research": "meltdown"
 }
