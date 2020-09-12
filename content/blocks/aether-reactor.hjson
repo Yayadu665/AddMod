@@ -1,7 +1,7 @@
 type: ImpactReactor
 name: Aether Reactor
 description: Reacteur d'Aether
-size: 4
+size: 5
 health: 1200
 category: power
 powerProduction: 250
