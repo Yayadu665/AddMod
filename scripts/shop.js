@@ -1,4 +1,4 @@
-const armagedon = extendContent(LaserTurret, "armagedon",{
+const armagedon = extendContent(LaserTurret, "addmod-armagedon",{
 	generateIcons: function(){
 	return [
 		Core.atlas.find("addmod-block-7"),
