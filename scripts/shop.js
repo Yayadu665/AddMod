@@ -52,6 +52,7 @@ calamitylaser.despawnEffect = Fx.none;
 calamitylaser.hitSize = 5;
 calamitylaser.drawSize = 660;
 calamitylaser.pierce = true;
+calamitylaser.rotatespeed = 0;
 calamitylaser.shootEffect = Fx.none;
 calamitylaser.smokeEffect = Fx.none;
 
