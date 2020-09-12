@@ -14,8 +14,14 @@ requirements: [
 ]
 consumes: { 
     power: 2000
-    items:  items: [
-      aether/2
-    ]
-    liquids: water/2
+    items:{
+    	items: [
+      		aether/2
+    	]
+    }
+    liquids:{
+    	liquids: [
+      		water/2
+    	]
+    }
 }
