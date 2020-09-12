@@ -9,6 +9,7 @@ const armagedon = extendContent(LaserTurret, "addmod-armagedon",{
 		Draw.rect(Core.atlas.find("addmod-block-7"), tile.drawx(), tile.drawy())
 	}
 })
+armagedon.update = true;
 
 const shop = extendContent(Block, "shop", {
 	buildConfiguration(tile, table){
