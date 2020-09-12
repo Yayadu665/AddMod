@@ -8,6 +8,7 @@
 	"shootDuration": 270,
 	"powerUse": 25,
 	"shootShake": 3,
+	"shootType": "meltdownLaser",
 	"firingMoveFract": 0.16,
 	"shootEffect": "shootBigSmoke2",
 	"recoil": 8,
