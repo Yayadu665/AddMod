@@ -7,7 +7,6 @@
 "reload": 80,
 "shootShake": 2,
 "range": 500,
-"shootType": "meltdownLaser",
 "shootEffect": "shootBigSmoke2",
 "heatColor": "ff6700",
 "shootCone": 40,
