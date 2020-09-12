@@ -4,23 +4,23 @@ description: Reacteur d'Aether
 size: 4
 health: 1200
 category: power
-powerProduction: 15000
+powerProduction: 250
 itemDuration: 2
 
 requirements: [
     {"item": "aether", "amount": 75},
-    {"item": "silicon", "amount": 80},
+    {"item": "aetherium", "amount": 80},
     {"item": "titanium", "amount": 50}
 ]
 consumes: { 
-    power: 2000
+    power: 25
     items:{
     	items: [
-      		addmod-aether/2
+      		addmod-aetherium/1
     	]
     }
     liquid: {
-    	liquid: water
-    	amount: 0.5
+    	liquid: addmod-liquid-aether
+    	amount: 0.25
   	}
 }
