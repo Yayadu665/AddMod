@@ -11,8 +11,8 @@
 	"firingMoveFract": 0.16,
 	"shootEffect": "shootBigSmoke2",
 	"recoil": 8,
-	"localizedName": "Armagedon",
-	"description": "Armagedon",
+	"localizedName": "[orange] Armagedon",
+	"description": "Imagine meltdown, but stronger",
 	"hasPower": true,
 	"hasLiquids": true,
 	"shootSound": "laserbig",
@@ -28,13 +28,11 @@
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 890 },
-		{ "item": "lead", "amount": 690 },
-		{ "item": "graphite", "amount": 790 },
-		{ "item": "titanium", "amount": 500 },
-		{ "item": "surge-alloy", "amount": 750 },
-		{ "item": "silicon", "amount": 730 },
-		{ "item": "thorium", "amount": 430 }
+		{ "item": "copper", "amount": 650},
+		{ "item": "graphite", "amount": 500},
+		{ "item": "aetherium", "amount": 400},
+		{ "item": "surge-alloy", "amount": 450},
+		{ "item": "plastanium", "amount": 550}
 	],
 	"category": "turret",
 }
