@@ -8,4 +8,5 @@ requirements: [
 ]
 category: distribution
 speed: 0.2
+displayedSpeed: 0.2
 research: titanium-conveyor
