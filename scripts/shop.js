@@ -66,7 +66,6 @@ const armagedon = extendContent(LaserTurret, "armagedon",{
 		Draw.rect(Core.atlas.find("addmod-block-7"), tile.drawx(), tile.drawy())
 	}
 });
-armagedon.shootType = meltdownLaser;
 armagedon.update = true;
 
 
