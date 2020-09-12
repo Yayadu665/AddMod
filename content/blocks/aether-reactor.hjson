@@ -14,8 +14,13 @@ requirements: [
 ]
 consumes: { 
     power: 2000
-    items:  items: [
-      aether/2
-    ]
-    liquids: water/2
+    items:{
+    	items: [
+      		addmod-aether/2
+    	]
+    }
+    liquid: {
+    	liquid: water
+    	amount: 0.5
+  	}
 }
