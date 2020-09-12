@@ -16,7 +16,7 @@ consumes: {
     power: 2000
     items:{
     	items: [
-      		aether/2
+      		addmod-aether/2
     	]
     }
     liquid: {
