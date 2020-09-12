@@ -1,5 +1,6 @@
   
 {
+	"type": "LaserTurret",
 	"size": 7,
 	"health": 7800,
 	"range": 275,
@@ -21,6 +22,7 @@
 	"rotatespeed": 1.5,
 	"activeSoundVolume": 5,
 	"expanded": true,
+	"shootType": "meltdownLaser",
 	"consumes": {
 		"liquid": {
 			"liquid": "water",
