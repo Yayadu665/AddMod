@@ -2,7 +2,7 @@
 	"size": 7,
 	"health": 7800,
 	"range": 275,
-	"reload": 130,
+	"reload": 20,
 	"coolantMultiplier": 0.6,
 	"shootCone": 40,
 	"shootDuration": 270,
