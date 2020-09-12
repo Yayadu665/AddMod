@@ -67,7 +67,6 @@ const calamity = extendContent(LaserTurret, "armagedon",{
 		Draw.rect(Core.atlas.find("addmod-block-7"), tile.drawx(), tile.drawy())
 	}
 });
-calamity.shootType = meltdownLaser;
 calamity.update = true;
 
 const shop = extendContent(Block, "shop", {
