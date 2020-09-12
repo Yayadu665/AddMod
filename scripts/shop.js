@@ -1,12 +1,12 @@
-const armagedon = extendContent(LaserTurret, "armagedon",{
+const armagedon = extendContent(LaserTurret, "addmod-armagedon",{
 	generateIcons: function(){
 	return [
-		Core.atlas.find("block-7"),
-		Core.atlas.find("armagedon")
+		Core.atlas.find("addmod-block-7"),
+		Core.atlas.find("addmod-armagedon")
 	];},
 	
 	draw: function(tile){
-		Draw.rect(Core.atlas.find("block-7"), tile.drawx(), tile.drawy())
+		Draw.rect(Core.atlas.find("addmod-block-7"), tile.drawx(), tile.drawy())
 	}
 })
 armagedon.shootType = meltdownLaser;
