@@ -24,8 +24,8 @@ consumes: {
     	amount: 0.25
   	}
 category: power,
-research": impact-reactor,
-idleSound": EnergyLoop2,
+research: impact-reactor,
+idleSound: EnergyLoop2,
 idleSoundVolume: 0.5
 }
 
