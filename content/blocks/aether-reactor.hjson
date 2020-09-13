@@ -2,7 +2,6 @@ type: ImpactReactor
 name: Aether Reactor
 description: Reacteur d'Aether
 size: 5
-research: impact-reactor
 idleSound: EnergyLoop2
 idleSoundVolume: 0.5
 health: 1200
