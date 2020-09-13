@@ -23,7 +23,6 @@ consumes: {
     	liquid: addmod-liquid-aether
     	amount: 0.25
   	}
-category: power,
 research: impact-reactor,
 idleSound: EnergyLoop2,
 idleSoundVolume: 0.5
