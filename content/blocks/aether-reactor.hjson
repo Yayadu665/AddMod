@@ -5,7 +5,7 @@ size: 5
 health: 1200
 category: power
 powerProduction: 250
-itemDuration: 2
+itemDuration: 20
 
 requirements: [
     {"item": "aether", "amount": 75},
