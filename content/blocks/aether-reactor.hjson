@@ -2,6 +2,9 @@ type: ImpactReactor
 name: Aether Reactor
 description: Reacteur d'Aether
 size: 5
+research: impact-reactor
+idleSound: EnergyLoop2
+idleSoundVolume: 0.5
 health: 1200
 category: power
 powerProduction: 250
@@ -23,9 +26,7 @@ consumes: {
     	liquid: addmod-liquid-aether
     	amount: 0.25
   	}
-research: impact-reactor,
-idleSound: EnergyLoop2,
-idleSoundVolume: 0.5
+
 }
 
 
