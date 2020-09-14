@@ -1,10 +1,10 @@
-name: Aether Liquide
-type: floor
-variants: 0
-speedMultiplier:0.2
-isLiquid: true 
-status: wet
-statusDuration: 60
-cacheLayer: water
-liquidDrop: liquid-aether
-
+{	
+"name":"Liquid Aether",	
+"type":"floor",	
+"variants": 0,	
+"speedMultiplier":0.4,	
+"isLiquid":true,	
+"status": "wet",	
+"statusDuration": 60,	
+"cacheLayer": "water",	
+"liquidDrop":"liquid-aether"}
