@@ -5,5 +5,5 @@
 "isLiquid":true,
 "status": "wet",
 "statusDuration": 60,
-"cacheLayer": "liquid-aether",
+"cacheLayer": "water",
 "liquidDrop":"liquid-aether"}
