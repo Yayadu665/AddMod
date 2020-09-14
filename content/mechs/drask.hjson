@@ -1,9 +1,9 @@
 {
 	"type": "mech",
 	"name": "Drask",
-	"description": "Large non flagship class vessel, handles even the pounding weapons of large mechs, uses homing minigun",
+	"description": "Large non flagship class vessel, handles even the pounding weapons of large mechs, uses homing shotgun",
 	"speed": 0.1,
-	"boostSpeed": 0.3,
+	"boostSpeed": 0.5,
 	"engineSize": 5.0,
 	"engineOffset": 10,
 	"mass": 10,
