@@ -1,4 +1,4 @@
-type: Floor
+type: floor
 name: Aether Liquide
 drownTime: 5
 speedMultiplier: 0.2
