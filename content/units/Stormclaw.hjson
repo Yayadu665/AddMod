@@ -7,9 +7,9 @@ drag: 0.4
 mass: 5
 hitsize: 20
 rotatespeed: 0.06
-health: 9000
+health: 1000
 weapon: {
-            name: "dictator-equip"
+            name: "stormclaw-equip"
             length: 13
             reload: 30
             width: 22
@@ -18,16 +18,16 @@ weapon: {
             shake: 2
             inaccuracy: 3
             shots: 4
-            spacing: 0
+            spacing: 1
             shotDelay: 3
             bullet:{
-                        damage: 2320
-                        speed: 25
+                        damage: 10
+                        speed: 10
                         knockback: 50
-                        bulletWidth: 2
-                        bulletHeight: 6
+                        bulletWidth: 10
+                        bulletHeight: 15
                         splashDamageRadius: 2
-                        splashDamage: 300
+                        splashDamage: 2
                         shootEffect: "shootBig"
                         lifetime: 20
         }
