@@ -1,4 +1,5 @@
  type : Floor
+ name : Aether Liquide
  drownTime : 5
  status : StatusEffects.tarred;
  statusDuration : 5
