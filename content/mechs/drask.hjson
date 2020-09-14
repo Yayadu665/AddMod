@@ -47,7 +47,7 @@
             "splashDamageRadius": 15,
             "homingPower": 1,
             "homingRange": 10,
-            "bulletSprite": "thorge-ex-fragment",
+            "bulletSprite": "fragment",
             "bulletShrink": 1
         }
     }
