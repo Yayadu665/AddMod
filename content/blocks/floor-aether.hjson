@@ -3,5 +3,7 @@ type: floor
 variants: 0
 speedMultiplier:0.2
 isLiquid: true 
+status: wet
+statusDuration: 60
 liquidDrop: liquid-aether
 
