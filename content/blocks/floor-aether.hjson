@@ -1,7 +1,5 @@
 type: floor
 name: Aether Liquide
 drownTime: 5
-speedMultiplier: 0.2
-variants: 0
 liquidDrop: liquid-aether
 isLiquid: true 
