@@ -3,12 +3,13 @@
 	"description": "Enemies are way more dangerous, nearly noone leave this place alive.",
 	"loadout": "basicNucleus",
 	"startingItems": [
-		{ "item": "copper", "amount": 1300 },
-		{ "item": "lead", "amount": 1100 },
+		{ "item": "copper", "amount": 2000 },
+		{ "item": "lead", "amount": 1500 },
 		{ "item": "titanium", "amount": 500 },
 		{ "item": "silicon", "amount": 300 },
 		{ "item": "graphite", "amount": 300 },
-		{ "item": "metaglass", "amount": 180 }
+		{ "item": "metaglass", "amount": 1000 },
+		{ "item": "aether", "amount": 500 }
 	],
 	"conditionWave": 30,
 	"launchPeriod": 15,
