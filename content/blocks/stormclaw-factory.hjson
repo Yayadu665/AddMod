@@ -1,7 +1,7 @@
 name: Stormclaw Factory
 description: Makes Chrome Wraith units.
 type: UnitFactory
-unitType: Stormclaw
+unitType: poly
 size: 6
 produceTime: 350
 consumes: {
