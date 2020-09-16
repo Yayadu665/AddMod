@@ -62,5 +62,5 @@ requirements: [
     { "item": "graphite", "amount": 350 }
 ]
 category: turret
-research: spetre
+research: spectre
 
