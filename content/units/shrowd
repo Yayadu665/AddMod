@@ -20,6 +20,9 @@
 		"lead",
 		"titanium",
 		"thorium"
-	],
+	]
+	"weapon": {
+		"name": "you have incurred my wrath. prepare to die.",
+		"bullet": "lancerLaser",}
 	
 }
