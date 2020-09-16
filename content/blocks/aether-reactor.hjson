@@ -18,11 +18,11 @@ consumes: {
     power: 25
     items:{
     	items: [
-      		addmod-aetherium/1
+      		aetherium/1
     	]
     }
     liquid: {
-    	liquid: addmod-liquid-aether
+    	liquid: liquid-aether
     	amount: 0.25
   	}
 
