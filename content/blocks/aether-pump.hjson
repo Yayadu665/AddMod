@@ -12,4 +12,5 @@ consumes: {
 }
 liquidCapacity: 100
 hasPower: true
+category: liquid
 size: 3
