@@ -14,6 +14,12 @@ shootCone: 4
 layer: turret
 layer2: power
 hasPower: true
+ammo: {
+    aether: {
+        speed: 20
+	damage: 900
+    }
+}
 requirements: [
     { "item": "aetherium", "amount": 800 },
     { "item": "surge-alloy", "amount": 500 },
