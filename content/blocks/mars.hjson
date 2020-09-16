@@ -17,7 +17,7 @@ requirements: [
 	lead/2300
 	surge-alloy/500
 	silicon/1800
-	aether-charged/1600
+	aetherium/800
 ]
 category: turret
 research: specter
