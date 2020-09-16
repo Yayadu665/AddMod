@@ -80,6 +80,7 @@ const mars = extendContent(LaserTurret, "mars",{
 		Draw.rect(Core.atlas.find("aetherunbound-block-7"), tile.drawx(), tile.drawy())
 	}
 });
+mars.shootType = calamitylaser;
 mars.update = true;
 
 const shop = extendContent(Block, "shop", {
