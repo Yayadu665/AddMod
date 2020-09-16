@@ -1,6 +1,6 @@
 type: ItemTurret
-name: [cyan]Hammerhead cannon
-description: "La Puissance de l'aether concentré en un cannon"
+name: Hammerhead cannon
+description: La Puissance de l'aether concentré en un cannon
 health: 8000
 size: 4
 reload: 200
