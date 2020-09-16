@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Hammerhead cannon
+name: [cyan]Hammerhead cannon
 description: La Puissance de l'aether concentré en un cannon
 health: 2350
 size: 4
@@ -62,5 +62,5 @@ requirements: [
     { "item": "graphite", "amount": 350 }
 ]
 category: turret
-research: fuse
+research: spetre
 
