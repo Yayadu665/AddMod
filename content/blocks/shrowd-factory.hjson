@@ -10,7 +10,7 @@
 		"power": 1.2,
 		"items": {
 			"items": [
-				{"item": "thorium", "amount": 5}
+				{"item": "aether", "amount": 5}
 			]
 		}
 	},
