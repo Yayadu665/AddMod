@@ -1,7 +1,7 @@
 size: 7
 health: 12000
 reload: 200
-localizedName: [orange] M.A.R.S.
+localizedName: M.A.R.S.
 recoil: 8
 expanded: true
 ammoUseEffect: shellEjectBig
