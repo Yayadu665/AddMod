@@ -5,7 +5,7 @@
 	"unitType": "shrowd",
 	"size": 3,
 	"produceTime": 3500,
-	"maxSpawn": 1,
+	"maxSpawn": 2,
 	"consumes": {
 		"power": 1.2,
 		"items": {
