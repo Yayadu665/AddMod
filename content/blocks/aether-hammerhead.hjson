@@ -1,7 +1,7 @@
 type: ItemTurret
 name: [cyan]Hammerhead cannon
 description: "La Puissance de l'aether concentré en un cannon"
-health: 2350
+health: 8000
 size: 4
 reload: 200
 targetGround: true
@@ -44,7 +44,7 @@ ammo: {
     }
     surge-alloy: {
         speed: 20
-	damage: 400
+	damage: 1500
 	backColor: 00ffff
 	frontColor: 00ffff
 	bulletWidth: 10
