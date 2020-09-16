@@ -6,11 +6,11 @@ requirements: [
     {"item": "silicon", "amount": 30},
     {"item": "titanium", "amount": 40}
 ]
-pumpAmount: 0.83
+pumpAmount: 1.66
 consumes: {
   power: 1.4
 }
 liquidCapacity: 100
 hasPower: true
 category: liquid
-size: 1.7
+size: 3
