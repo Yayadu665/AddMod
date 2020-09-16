@@ -20,5 +20,5 @@ requirements: [
 	aetherium/800
 ]
 category: turret
-research: specter
+research: spectre
 shootSound: explosionbig
