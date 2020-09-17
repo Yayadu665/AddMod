@@ -69,20 +69,6 @@ const calamity = extendContent(LaserTurret, "armagedon",{
 calamity.shootType = calamitylaser;
 calamity.update = true;
 
-const mars = extendContent(LaserTurret, "mars",{
-	generateIcons: function(){
-	return [
-		Core.atlas.find("aetherunbound-block-7"),
-		Core.atlas.find("aetherunbound-mars")
-	];},
-	
-	draw: function(tile){
-		Draw.rect(Core.atlas.find("aetherunbound-block-7"), tile.drawx(), tile.drawy())
-	}
-});
-mars.shootType = calamitylaser;
-mars.update = true;
-
 const shop = extendContent(Block, "shop", {
 	buildConfiguration(tile, table){
 		//Copper contre 2 tickets
