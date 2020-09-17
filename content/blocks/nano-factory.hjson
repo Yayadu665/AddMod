@@ -1,5 +1,5 @@
 type: UnitFactory
-unitType: drone-constructeur-avance
+unitType: nano
 size: 1
 health: 200
 produceTime: 80
