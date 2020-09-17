@@ -1,0 +1,5 @@
+{
+	"type": "OreBlock",
+	"itemDrop": "dark",
+	"hardness": 2.0
+}
