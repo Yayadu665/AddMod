@@ -1,0 +1,21 @@
+type: UnitFactory
+unitType: drone-constructeur-avance
+size: 1
+health: 200
+produceTime: 80
+maxSpawn: 10
+consumes: {
+  power: 37.7
+  items: {
+    items: [
+      graphite/30
+      titanium/30
+      aether/20
+    ]
+  }
+}
+category: units
+research: phantom-factory
+requirements: [
+  aether/2
+]
