@@ -8,14 +8,14 @@ consumes: {
   power: 37.7
   items: {
     items: [
-      graphite/30
-      titanium/30
-      aether/20
+      aether/2
     ]
   }
 }
 category: units
 research: phantom-factory
 requirements: [
-  aether/2
+  graphite/30
+  titanium/30
+  aether/20
 ]
