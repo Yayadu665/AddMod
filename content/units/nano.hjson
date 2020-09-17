@@ -7,8 +7,8 @@ flying: true
 health: 1
 engineOffset: 1
 engineSize: 1
-range: 120
-buildPower: 6
+range: 10
+buildPower: 0.5
 retreatPercent: 0.3
 toMine: [thorium]
 weapon: {
