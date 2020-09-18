@@ -14,10 +14,20 @@ shootCone: 4
 layer: turret
 layer2: power
 hasPower: true
+BlockGroup: turrets
+ammoUseEffect: shellEjectBig
+inaccuracy: 0
+rotatespeed: 10
 ammo: {
     aether: {
         speed: 20
 	damage: 900
+	backColor: 00ffff
+	frontColor: 00ffff
+	bulletWidth: 10
+	bulletHeight: 100
+	shootEffect: shootBig
+	smokeEffect: shootBigSmoke
     }
 }
 requirements: [
