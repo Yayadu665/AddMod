@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: compressor
+description: DIAMONDS !!!.
+outputItem: diamond/1
+size: 3
+hasPower: true
+craftTime: 12
+consumes: {
+  power: 1.6
+  items: {
+    items: [
+      coal/10
+    ]
+  }
+}
+requirements: [
+  aether/100
+  silicon/70
+  lead/50
+  graphite/30
+]
+category: crafting
+research: klin
