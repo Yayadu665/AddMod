@@ -3,7 +3,7 @@ unitType: nano
 size: 1
 health: 200
 produceTime: 80
-maxSpawn: 10
+maxSpawn: 4
 consumes: {
   power: 8
   items: {
