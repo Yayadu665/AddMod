@@ -7,7 +7,7 @@ idleSoundVolume: 0.5
 health: 1200
 category: power
 powerProduction: 300
-itemDuration: 30
+itemDuration: 300
 
 requirements: [
     {"item": "aether", "amount": 75},
