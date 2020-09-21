@@ -5,7 +5,7 @@ health: 200
 produceTime: 80
 maxSpawn: 10
 consumes: {
-  power: 37.7
+  power: 8
   items: {
     items: [
       aether/2
