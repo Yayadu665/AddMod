@@ -6,8 +6,8 @@ idleSound: EnergyLoop2
 idleSoundVolume: 0.5
 health: 1200
 category: power
-powerProduction: 250
-itemDuration: 7
+powerProduction: 300
+itemDuration: 30
 
 requirements: [
     {"item": "aether", "amount": 75},
