@@ -16,7 +16,7 @@ ammo: {
 		damage: 140
 		speed: 3
 		ammoMultiplier: 2
-		hitSize: 8
+		hitSize: 18
 		lifetime: 42
 		bulletWidth: 0
 		bulletHeight: 0
@@ -34,7 +34,7 @@ ammo: {
 		damage: 210
 		speed: 3
 		ammoMultiplier: 3
-		hitSize: 10
+		hitSize: 18
 		lifetime: 42
 		bulletWidth: 0
 		bulletHeight: 0
