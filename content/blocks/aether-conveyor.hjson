@@ -7,6 +7,6 @@ requirements: [
   aether/3
 ]
 category: distribution
-speed: 0.2
+speed: 0.12
 displayedSpeed: 20
 research: titanium-conveyor
