@@ -1,5 +1,5 @@
 type: ItemTurret
-size: 2
+size: 3
 health: 1600
 category: turret
 shootEffect: none
