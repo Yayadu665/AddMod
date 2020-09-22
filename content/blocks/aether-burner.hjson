@@ -18,10 +18,10 @@ ammo: {
 		ammoMultiplier: 2
 		hitSize: 8
 		lifetime: 42
-		bulletWidth: 7
-		bulletHeight: 9
+		bulletWidth: 0
+		bulletHeight: 0
 		pierce: true
-		drag: 0.05
+		drag: 0.18
 		status: burning
 		statusDuration: 480
 		backColor: f1af4e
@@ -36,10 +36,10 @@ ammo: {
 		ammoMultiplier: 3
 		hitSize: 10
 		lifetime: 42
-		bulletWidth: 7
-		bulletHeight: 9
+		bulletWidth: 0
+		bulletHeight: 0
 		pierce: true
-		drag: 0.05
+		drag: 0.18
 		status: burning
 		statusDuration: 480
 		backColor: f1af4e
