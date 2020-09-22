@@ -1,9 +1,9 @@
 {
 	"size": 7,
 	"health": 7800,
-	"range": 400,
+	"range": 380,
 	"reload": 80,
-	"coolantMultiplier": 0.8,
+	"coolantMultiplier": 1.2,
 	"shootCone": 40,
 	"shootDuration": 600,
 	"powerUse": 25,
