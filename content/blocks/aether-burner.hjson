@@ -8,7 +8,7 @@ targetAir: false
 targetGround: true
 coolantMultiplier: 2
 reload: 6
-shootCone: 50
+shootCone: 180
 range: 180
 recoil: 0
 ammo: {
