@@ -1,6 +1,6 @@
-name: addmod
-displayName: "[cyan]Aether [grey]Unbound" 
+name: aetherunbound
+displayName: "[cyan]Aether [gray]Unbound" 
 author: "Arth0x and Yayadu66"
-description: "discover the nw powzd of the aether"
+description: "discover the new powed of the aether"
 version: "1.6"
 minGameVersion: "103"
