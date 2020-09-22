@@ -1,10 +1,10 @@
 type: LiquidTurret
 name: Tsunami
 description: A larger more advance version of wave turret, ejects liquids further and stronger
-health: 1000
+health: 2000
 size: 3
 reload: 3
-range: 180
+range: 230
 recoil: 2
 shootShake: 1
 ammoUseEffect: none
@@ -48,13 +48,13 @@ ammo: {
 	ammoMultiplier: 1
         liquid: oil
     }
-    cryofluid: {
+    slag: {
 	type: LiquidBulletType
 	drag: 0.02
-	speed: 12
+	speed: 20
 	knockback: 0.4
 	ammoMultiplier: 1
-	liquid: cryofluid
+	liquid: slag
     }
 }
 requirements: [
