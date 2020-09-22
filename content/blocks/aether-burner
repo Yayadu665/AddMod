@@ -1,110 +1,58 @@
-{
-	"type": "DoubleTurret",
-	"name": "Aether Buner",
-	"description": "Launches destructive lingering bombs.",
-	"targetAir": true,
-	"targetGround": true,
-	"health": 1200,
-	"size": 3,
-	"inaccuracy": 0.5,
-	"reload": 0,
-	"ammoPerShot": 8,
-	"shots": 1,
-	"recoil": 5,
-	"ammoUseEffect": "shellEjectBig",
-	"shootCone": 30,
-	"rotateSpeed": 50,
-	"range": 75,
-	"shootShake": 2,
-	"ammo": {
-		"graphite":{
-			"bulletWidth": 20,
-		     "bulletHeight": 20,
-             "type": "BasicBulletType",
-             "lifetime": 40,
-             "damage": 40,
-             "speed": 5,
-             "shootEffect": "shellEjectBig",
-             "splashDamageRadius": 30,
-             "splashDamage": 30,
-             "hitEffect": "blastExplosion",
-             "despawnEffect": "blastExplosion", 
-             "fragBullets": 1,
-             "fragBullet":{
-              "type": "BasicBulletType",
-             "lifetime": 10,
-             "damage": 40,
-             "speed": 1.5,
-             "splashDamageRadius": 30,
-             "splashDamage": 25,
-             "hitEffect": "blastExplosion",
-             "despawnEffect": "blastExplosion", 
-             "fragBullets": 1,
-             "fragBullet":{
-                      "type": "BasicBulletType",
-             "lifetime": 7,
-             "damage": 30,
-             "speed": 1.5,
-             "splashDamageRadius": 30,
-             "splashDamage": 20,
-             "hitEffect": "blastExplosion",
-             "despawnEffect": "blastExplosion", 
-                   "fragBullets": 1,
-             "fragBullet":{
-              " type": "BasicBulletType",
-             "lifetime": 5,
-             "damage": 20,
-             "speed": 1.5,
-             "splashDamageRadius": 30,
-             "splashDamage": 20,
-             "hitEffect": "blastExplosion",
-             "despawnEffect": "blastExplosion", 
-             "fragBullets": 1,
-             "fragBullet":{
-                      "type": "BasicBulletType",
-             "lifetime": 5,
-             "damage": 20,
-             "speed": 1.5,
-             "splashDamageRadius": 20,
-             "splashDamage": 20,
-             "hitEffect": "blastExplosion",
-             "despawnEffect": "blastExplosion",
-               "fragBullets": 1,
-             "fragBullet":{
-               "type": "BasicBulletType",
-             "lifetime": 5,
-             "damage": 20,
-             "speed": 1.5,
-             "splashDamageRadius": 20,
-             "splashDamage": 10,
-             "hitEffect": "blastExplosion",
-             "despawnEffect": "blastExplosion", 
-             "fragBullets": 1,
-             "fragBullet":{
-                      "type": "BasicBulletType",
-             "lifetime": 1,
-             "damage": 20,
-             "speed": 1.5,
-             "splashDamageRadius": 20,
-             "splashDamage": 10,
-             "hitEffect": "blastExplosion",
-             "despawnEffect": "blastExplosion", 
-             }
-             }
-             }
-             }
-             }         
-             }
-		     },
-		     
-		
-	},
-	"requirements": [
-	 	{ "item": "copper", "amount": 160 },
-		{ "item": "graphite", "amount": 150},
-		{ "item": "titanium", "amount": 80},
-	],
-	"category": "turret",
-	"research": "burner",
-	"shootSound": "bigshot"
+type: ItemTurret
+size: 2
+health: 1600
+category: turret
+shootEffect: none
+shootSound: flame
+targetAir: false
+targetGround: true
+coolantMultiplier: 2
+reload: 6
+shootCone: 50
+range: 180
+recoil: 0
+ammo: {
+	pyratite: {
+		damage: 140
+		speed: 3
+		ammoMultiplier: 2
+		hitSize: 8
+		lifetime: 42
+		bulletWidth: 7
+		bulletHeight: 9
+		pierce: true
+		drag: 0.05
+		status: burning
+		statusDuration: 480
+		backColor: f1af4e
+		frontColor: fffead
+		shootEffect: shootPyraFlame
+		hitEffect: hitFlameSmall
+		despawnEffect: none
+	}
+	blast-compound: {
+		damage: 210
+		speed: 3
+		ammoMultiplier: 3
+		hitSize: 10
+		lifetime: 42
+		bulletWidth: 7
+		bulletHeight: 9
+		pierce: true
+		drag: 0.05
+		status: burning
+		statusDuration: 480
+		backColor: f1af4e
+		frontColor: fffead
+		shootEffect: shootPyraFlame
+		hitEffect: hitFlameSmall
+		despawnEffect: none
+	}
 }
+requirements: [
+	aether/250
+	copper/200
+	graphite/150
+	titanium/105
+]
+research: scorch
