@@ -21,10 +21,10 @@
     "alternate": true,
     "bullet": {
     "type": "FlakBulletType",
-    "lifetime": 200,
+    "lifetime": 50,
     "speed": 4,
-    "splashDamageRadius": 5,
-    "splashDamage": 20,
+    "splashDamageRadius": 20,
+    "splashDamage": 75,
     "damage": 200,
     "frontColor": "ff6700",
     "backColor": "ff6700",
