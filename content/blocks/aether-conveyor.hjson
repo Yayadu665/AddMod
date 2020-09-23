@@ -2,9 +2,9 @@ type: Conveyor
 name: Aether conveyor
 description: Aether conveyor
 requirements: [
-  titanium/3
+  titanium/1
   copper/1
-  aether/3
+  aether/1
 ]
 category: distribution
 speed: 0.20
