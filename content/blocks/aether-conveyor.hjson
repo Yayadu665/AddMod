@@ -2,8 +2,8 @@ type: Conveyor
 name: Aether conveyor
 description: Aether conveyor
 requirements: [
-  titanium/5
-  copper/10
+  titanium/3
+  copper/1
   aether/3
 ]
 category: distribution
