@@ -1,0 +1,29 @@
+{
+	"type": "flyingUnit",
+	"name": "IHellion",
+	"description": "Conquerors of Heaven",
+	"maxVelocity": 10,
+	"speed": 0.10,
+	"flying": true,
+	"health": 100,
+	"engineOffset": 2.0,
+	"range": 100,
+	"weaponOffsetY": 0,                             
+	"engineSize": 15, 
+	"rotateSpeed": 3,
+	"shootCone": 40,
+	"mass": 15000,
+	"targetAir": true,
+	"rotateWeapon": true,
+	"weapon": {
+		"name": "hellion-equip",
+		"shots":1,
+		"length": 2,
+		"damage": 3000,
+		"reload": 180,
+		"homingPower":4,
+		"homingRadius":50,
+		"alternate": false,
+		"bullet": "missileJavelin"
+	}
+}
