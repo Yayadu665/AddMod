@@ -1,0 +1,33 @@
+{
+	"type": "MechPad",
+	"mech": "agarus",
+	"name": "Agarus mech pad",
+	"description": "Transform to a heavy land unit class vessel, requires large amount of power",
+	"size": 4,
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 2000
+		},
+		{
+			"item": "thorium",
+			"amount": 1000
+		},
+		{
+			"item": "silicon",
+			"amount": 1500
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 2000
+		},
+		{
+			"item": "aetherium",
+			"amount": 2500
+		}
+	],
+	"consumes": {
+		"power": 50.0
+	},
+	"category": "upgrade"
+}
