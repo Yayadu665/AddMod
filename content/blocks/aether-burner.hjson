@@ -12,42 +12,27 @@ shootCone: 180
 range: 180
 recoil: 0
 ammo: {
-	pyratite: {
-		damage: 140
-		speed: 3
-		ammoMultiplier: 2
-		hitSize: 18
-		lifetime: 42
-		bulletWidth: 0
-		bulletHeight: 0
-		pierce: true
-		drag: 0.18
-		status: burning
-		statusDuration: 480
-		backColor: f1af4e
-		frontColor: fffead
-		shootEffect: shootPyraFlame
-		hitEffect: hitFlameSmall
-		despawnEffect: none
+"ammo": {
+		pyratite: {
+			speed: 8.0
+			damage: 10
+			bulletWidth: 10
+			bulletHeight: 15
+			drag: 0.10
+			bulletShrink: 1
+			smokeEffect: shootSmallFlame
+			hitEffect: none
+			frontColor: ffb855
+			backColor: db401c
+			knockback: 2
+			pierce: true
+			collidesTiles: true
+			hitSize: 4
+			incendAmount: 3
+			incendSpread: 8
+			incendChance: 0.5
 	}
-	blast-compound: {
-		damage: 210
-		speed: 3
-		ammoMultiplier: 3
-		hitSize: 18
-		lifetime: 42
-		bulletWidth: 0
-		bulletHeight: 0
-		pierce: true
-		drag: 0.18
-		status: burning
-		statusDuration: 480
-		backColor: f1af4e
-		frontColor: fffead
-		shootEffect: shootPyraFlame
-		hitEffect: hitFlameSmall
-		despawnEffect: none
-	}
+	
 }
 requirements: [
 	aether/250
