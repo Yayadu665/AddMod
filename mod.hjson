@@ -1,6 +1,6 @@
 name: aetherunbound
-displayName: "[cyan]Aether [gray]Unbound" 
-author: "Arth0x and Yayadu66"
-description: "discover the new powed of the aether"
-version: "1.6"
+displayName: "[cyan]Aether [gray]Unbound [red]Alpha" 
+author: "[gold]Arth0x and Yayadu66"
+description: "discover the new powed of the [cyan]aether"
+version: "0.17"
 minGameVersion: "103"
